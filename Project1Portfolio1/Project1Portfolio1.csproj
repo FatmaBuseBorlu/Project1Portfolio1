@@ -132,7 +132,9 @@
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\EducationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Controllers\SkillController.cs" />
+    <Compile Include="Controllers\StatisticController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -360,6 +362,9 @@
     <Content Include="Views\Admin\PartialNavBar.cshtml" />
     <Content Include="Views\Skill\SkillList.cshtml" />
     <Content Include="Views\Skill\CreateSkill.cshtml" />
+    <Content Include="Views\Message\Inbox.cshtml" />
+    <Content Include="Views\Message\MessageDetails.cshtml" />
+    <Content Include="Views\Statistic\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
